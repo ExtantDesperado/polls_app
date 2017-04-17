@@ -1,7 +1,48 @@
-li a {
-    color: green;
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-left: 0px;
 }
 
 body {
     background: white url(images/background.jpg) no-repeat center;
+    text-align: center;
+    color: white;
+}
+
+form {
+    background-color: #0099CC;
+    border-radius: 10px;
+    padding: 30px 0px;
+    width: 75%;
+    margin: auto;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    border-radius: 5px
+}
+
+form div {
+    margin: auto;
+    margin-bottom: 30px;
+    width: 50%;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px 0px;
+    color: black;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border-bottom: 1px solid white;
+    padding: 10px 40px;
+}
+
+a {
+    color: #0000FF;
 }
